@@ -771,7 +771,7 @@
         <input type="number" style="margin-bottom: 10px;" bind:value={numberOfN2Skips} min="0" max="100" step="1"/>
         {/if}
         <label for="numberOfUWeeks" style="margin-bottom: 10px;">Number of Matches</label>
-        <input type="number" style="margin-bottom: 10px;" bind:value={matches} min="2" max="100" step="1"/>
+        <input type="number" style="margin-bottom: 10px;" bind:value={matches} min="1" max="100" step="1"/>
         {/if}
       </section>
       <div>
